@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/regular_bpt_test.dir/regular_bpt/cfb.cpp.o -c /harmonia/open-harmonia/regular_bpt/cfb.cpp",
+  "file": "/harmonia/open-harmonia/regular_bpt/cfb.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/regular_bpt_test.dir/regular_bpt/main.cpp.o -c /harmonia/open-harmonia/regular_bpt/main.cpp",
+  "file": "/harmonia/open-harmonia/regular_bpt/main.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/regular_bpt_test.dir/regular_bpt/regular-bpt-update.cpp.o -c /harmonia/open-harmonia/regular_bpt/regular-bpt-update.cpp",
+  "file": "/harmonia/open-harmonia/regular_bpt/regular-bpt-update.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/regular_bpt_test.dir/regular_bpt/regular_bpt.cpp.o -c /harmonia/open-harmonia/regular_bpt/regular_bpt.cpp",
+  "file": "/harmonia/open-harmonia/regular_bpt/regular_bpt.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/regular_bpt_test.dir/regular_bpt/traversal.cpp.o -c /harmonia/open-harmonia/regular_bpt/traversal.cpp",
+  "file": "/harmonia/open-harmonia/regular_bpt/traversal.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/avx.cpp.o -c /harmonia/open-harmonia/src/avx.cpp",
+  "file": "/harmonia/open-harmonia/src/avx.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/bpt-ppi-update-batch.cpp.o -c /harmonia/open-harmonia/src/bpt-ppi-update-batch.cpp",
+  "file": "/harmonia/open-harmonia/src/bpt-ppi-update-batch.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/bpt-ppi-update.cpp.o -c /harmonia/open-harmonia/src/bpt-ppi-update.cpp",
+  "file": "/harmonia/open-harmonia/src/bpt-ppi-update.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/bpt-ppi.cpp.o -c /harmonia/open-harmonia/src/bpt-ppi.cpp",
+  "file": "/harmonia/open-harmonia/src/bpt-ppi.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/bpt.cpp.o -c /harmonia/open-harmonia/src/bpt.cpp",
+  "file": "/harmonia/open-harmonia/src/bpt.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/cpu-range-hb.cpp.o -c /harmonia/open-harmonia/src/cpu-range-hb.cpp",
+  "file": "/harmonia/open-harmonia/src/cpu-range-hb.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/cpu-range.cpp.o -c /harmonia/open-harmonia/src/cpu-range.cpp",
+  "file": "/harmonia/open-harmonia/src/cpu-range.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/cpu-search-prefetch-avxNTG.cpp.o -c /harmonia/open-harmonia/src/cpu-search-prefetch-avxNTG.cpp",
+  "file": "/harmonia/open-harmonia/src/cpu-search-prefetch-avxNTG.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/cpu-search-prefetch.cpp.o -c /harmonia/open-harmonia/src/cpu-search-prefetch.cpp",
+  "file": "/harmonia/open-harmonia/src/cpu-search-prefetch.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/hash_cache.cpp.o -c /harmonia/open-harmonia/src/hash_cache.cpp",
+  "file": "/harmonia/open-harmonia/src/hash_cache.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/main.cpp.o -c /harmonia/open-harmonia/src/main.cpp",
+  "file": "/harmonia/open-harmonia/src/main.cpp"
+},
+{
+  "directory": "/harmonia/open-harmonia",
+  "command": "/usr/bin/c++  -DDEFAULT_ORDER=64 -DNarrow_Rate=8 -I/harmonia/open-harmonia/./src -I/harmonia/open-harmonia/./cub -I/usr/local/cuda/include  -O3 -DNDEBUG -O3 -lboost_system -lboost_thread -mavx -mavx2 -fopenmp   -std=gnu++14 -o CMakeFiles/bpt_test.dir/src/traversal.cpp.o -c /harmonia/open-harmonia/src/traversal.cpp",
+  "file": "/harmonia/open-harmonia/src/traversal.cpp"
+}
+]
