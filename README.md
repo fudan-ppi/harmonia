@@ -1,6 +1,61 @@
-# Harmonia
+# Harmonia: A High Throughput B+tree for GPUs
 
-Harmonia is a high performance GPU B+Tree implementation. Our work has been posted on [PPoPP'19](https://dl.acm.org/doi/10.1145/3293883.3295704). This repository contains all source codes of Harmonia, and several shell/python scripts are also included to replay our results quickly. Please feel free to make improvements and propose issues.
+Harmonia is a high performance GPU B+Tree implementation. This is the source code repository of Harmonia.
+
+Please read the paper ["Harmonia: A High Throughput B+tree for GPUs"](https://dl.acm.org/doi/10.1145/3293883.3295704) of PPoPP'19.
+
+If you use this work, please cite:
+
+```
+@inproceedings{10.1145/3293883.3295704,
+author = {Yan, Zhaofeng and Lin, Yuzhe and Peng, Lu and Zhang, Weihua},
+title = {Harmonia: A High Throughput B+tree for GPUs},
+year = {2019},
+isbn = {9781450362252},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3293883.3295704},
+doi = {10.1145/3293883.3295704},
+booktitle = {Proceedings of the 24th Symposium on Principles and Practice of Parallel Programming},
+pages = {133–144},
+numpages = {12},
+keywords = {GPU, high-throughput, B+tree},
+location = {Washington, District of Columbia},
+series = {PPoPP '19}
+}
+```
+
+WARNING: The code can be only used for academic research. Please do not use it for production.
+
+Contact information: clzhao16@fudan.edu.cn
+
+## Downloading the source code
+
+```shell
+git clone https://github.com/fudan-ppi/harmonia.git
+```
+
+## Build Harmonia
+
+1. Build docker image and run docker container
+```
+cd ./harmonia
+sh startup.sh
+docker ps -a
+```
+
+## Run Harmonia
+
+1. Connect to docker container
+```
+ssh -p14722 root@localhost
+// enter password: root
+```
+
+2. Run tests in container
+```
+cd /harmonia/open-harmonia/ && sh test.sh
+```
 
 ## Files and Directories
 
@@ -40,29 +95,6 @@ Harmonia is a high performance GPU B+Tree implementation. Our work has been post
 │       └── ...
 └── README.md                       // this file
 ```
-
-## Steps
-
-1. `cd ./harmonia`
-2. Build docker image and start a docker container `sh startup.sh`. This will take some minutes to prepare a necessary environment for Harmonia, please hold on.
-
-3. After a successful step 2, you may see something like below by running `docker images` and `docker ps -a`.
-
-  * ```
-  	REPOSITORY    TAG                        IMAGE ID       CREATED         SIZE
-  	harmonia      cuda-10.0                  b18895b2ceb7   19 hours ago    5.24GB
-  	```
-
-  * ```
-  	CONTAINER ID   IMAGE                                  COMMAND                 CREATED        STATUS                   PORTS                                     NAMES
-  	34e9fcc4c8d9   harmonia:cuda-10.0                     "/sbin/entrypoint.sh"   19 hours ago   Up 19 hours              0.0.0.0:14722->22/tcp, :::14722->22/tcp   funny_dijkstra
-  	```
-
-4. Now you can enter the Harmonia container by running `ssh -p14722 root@localhost` or `ssh -p14722 root@{ip address}`, the root user password is `root`.
-
-5.  After ssh connected, `cd /harmonia/` will show the files and directories for Harmonia.
-
-6.  You can run a simple tests by `cd /harmonia/open-harmonia/ && sh test.sh`
 
 ## Q&A
 
